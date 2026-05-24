@@ -7,7 +7,7 @@
   "scripts": {
     "content:build": "node scripts/build-content.mjs",
     "docs:dev": "vitepress dev docs --host 127.0.0.1",
-    "docs:build": "npm run content:build && vitepress build docs",
+    "docs:build": "npm run content:build && vitepress build docs && node scripts/create-clean-url-indexes.mjs",
     "docs:preview": "vitepress preview docs --host 127.0.0.1"
   },
   "devDependencies": {
