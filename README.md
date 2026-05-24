@@ -75,8 +75,8 @@ Dieser Kurs erklärt KI-Konzepte und KI-Agenten für medizinische Einsteiger. De
 
 本项目完整保留以下两篇源文档内容与全部图片：
 
-- `/Users/anita/obsidian2026/raw/articles/2026 年你必须理解的 20 个 AI 概念.md`
-- `/Users/anita/obsidian2026/raw/articles/AI 智能体：完整课程.md`
+- `content/source/20-ai-concepts.md`
+- `content/source/ai-agents-course.md`
 
 原文图片已本地化保存到 `docs/public/assets/source/`。新增 12 张日式温暖专业手绘风插图保存到 `docs/public/assets/illustrations/`。
 

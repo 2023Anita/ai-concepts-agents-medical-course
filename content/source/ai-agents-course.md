@@ -1,24 +1,11 @@
 ---
-title: "AI 智能体：完整课程 原文全文"
-description: "完整保留原始资料内容与图片"
----
-
-# AI 智能体：完整课程 原文全文
-
-> 来源文件：`/Users/anita/Documents/ai-concepts-agents-medical-course/content/source/ai-agents-course.md`  
-> 本页保留原文结构、段落与全部图片，并将外链图片本地化到 `docs/public/assets/source/`。
-
-```yaml
 source_url: "https://x.com/sairahul1/status/2058464422306443766"
 author:
   - "@sairahul1"
 published: 2026-05-24
 tags:
-```
-
-
-
-![Image](/assets/source/agents-01.jpg)
+---
+![Image](https://pbs.twimg.com/media/HJD54Q0boAAkLlG?format=jpg&name=large)
 
 2026 年，人人都在谈论 AI 智能体。
 
@@ -36,9 +23,9 @@ tags:
 
 ## 第一部分：入门篇 AI 智能体究竟是什么
 
-## 1. 什么是 AI 智能体？
+## 1\. 什么是 AI 智能体？
 
-![Image](/assets/source/agents-02.jpg)
+![Image](https://pbs.twimg.com/media/HJD1ZuGbEAAFM1-?format=jpg&name=large)
 
 普通的 LLM 只做一件事：
 
@@ -64,9 +51,9 @@ AI 代理的工作方式有所不同。
 
 一次性完成时你会失去的一切——智能体都能弥补回来。
 
-## 2. 智能体究竟擅长什么？
+## 2\. 智能体究竟擅长什么？
 
-![Image](/assets/source/agents-03.jpg)
+![Image](https://pbs.twimg.com/media/HJD1id4bMAAm7gP?format=jpg&name=large)
 
 并非所有任务都需要智能体。
 
@@ -100,9 +87,9 @@ AI 代理的工作方式有所不同。
 
 如果一个提示就能解决，就别造个智能体。
 
-## 3. 自主性光谱
+## 3\. 自主性光谱
 
-![Image](/assets/source/agents-04.jpg)
+![Image](https://pbs.twimg.com/media/HJD1lZ5aMAA57--?format=jpg&name=large)
 
 构建智能体时的第一个重大决策：
 
@@ -132,9 +119,9 @@ AI 代理的工作方式有所不同。
 
 处于光谱的中间位置。给它工具，设置护栏，只有在建立信心后才逐步增加自主性。
 
-## 4. 上下文工程
+## 4\. 上下文工程
 
-![Image](/assets/source/agents-05.jpg)
+![Image](https://pbs.twimg.com/media/HJD2ADiaQAARimb?format=jpg&name=large)
 
 以下是让智能体真正“智能”的关键所在。
 
@@ -164,9 +151,9 @@ AI 代理的工作方式有所不同。
 
 上下文才是区分优秀智能体与故障智能体的关键。
 
-## 5. 任务分解
+## 5\. 任务分解
 
-![Image](/assets/source/agents-06.jpg)
+![Image](https://pbs.twimg.com/media/HJD2tg5aIAAB3Ek?format=jpg&name=large)
 
 构建智能体最重要的技能。
 
@@ -193,9 +180,9 @@ AI 代理的工作方式有所不同。
 
 ## 第二部分：中级 构建真正有效的多智能体系统
 
-## 6. 评估（区分专业人士与爱好者的枯燥环节）
+## 6\. 评估（区分专业人士与爱好者的枯燥环节）
 
-![Image](/assets/source/agents-07.jpg)
+![Image](https://pbs.twimg.com/media/HJD2kMybMAAwD_K?format=jpg&name=large)
 
 没人想讨论评估。
 
@@ -217,9 +204,9 @@ AI 代理的工作方式有所不同。
 
 从第一天就开始评估。不要等待一个"完美"的评估系统。快速交付并迭代改进。
 
-## 7. 记忆与知识
+## 7\. 记忆与知识
 
-![Image](/assets/source/agents-08.jpg)
+![Image](https://pbs.twimg.com/media/HJD20oyaEAAH2Wt?format=jpg&name=large)
 
 人们常混淆的两个截然不同的事物。
 
@@ -241,9 +228,9 @@ AI 代理的工作方式有所不同。
 
 两者都重要，但彼此无法替代。
 
-## 8. 护栏机制
+## 8\. 护栏机制
 
-![Image](/assets/source/agents-09.jpg)
+![Image](https://pbs.twimg.com/media/HJD25jgasAADfRy?format=jpg&name=large)
 
 一个能工作的智能体，未必是安全的智能体。
 
@@ -263,9 +250,9 @@ LLM 是非确定性的。
 
 大多数生产系统至少会使用这三种中的两种。
 
-**9. 提升每个智能体的4种设计模式**
+**9\. 提升每个智能体的4种设计模式**
 
-![Image](/assets/source/agents-10.jpg)
+![Image](https://pbs.twimg.com/media/HJD3Y-Pb0AEFkoj?format=jpg&name=large)
 
 这四种模式能可靠地提升智能体的表现。
 
@@ -309,9 +296,9 @@ LLM 无法单独完成这些任务。工具是智能体与世界交互的方式�
 
 每个智能体都擅长其特定任务。由于没有单个智能体试图包揽所有工作，最终输出质量更高。
 
-## 10. 多智能体系统设计
+## 10\. 多智能体系统设计
 
-![Image](/assets/source/agents-11.jpg)
+![Image](https://pbs.twimg.com/media/HJD3d1pbQAA96Qc?format=jpg&name=large)
 
 如何实际构建一个多智能体系统？
 
@@ -329,9 +316,9 @@ LLM 无法单独完成这些任务。工具是智能体与世界交互的方式�
 
 ## 第三部分：生产部署 真正让你从原型走向交付的关键
 
-## 11. Advanced Task Decomposition
+## 11\. Advanced Task Decomposition
 
-![Image](/assets/source/agents-12.jpg)
+![Image](https://pbs.twimg.com/media/HJD3i35a8AANPkm?format=jpg&name=large)
 
 In complex multi-agent systems, how you decompose matters a lot.
 
@@ -351,9 +338,9 @@ Functional decomposition for the main structure + temporal decomposition inside 
 
 Use whatever matches your task's natural boundaries.
 
-## 12. Improving Quality in Production
+## 12\. Improving Quality in Production
 
-![Image](/assets/source/agents-13.jpg)
+![Image](https://pbs.twimg.com/media/HJD4RI_aEAA2Yvo?format=jpg&name=large)
 
 System is working but not good enough.
 
@@ -373,9 +360,9 @@ Fix prompts first. Try a different model. Decompose further. Fine-tune last.
 
 Most teams reach good enough quality at step 2.
 
-## 13. Latency and Cost
+## 13\. Latency and Cost
 
-![Image](/assets/source/agents-14.jpg)
+![Image](https://pbs.twimg.com/media/HJD4anZa4AADL4Q?format=jpg&name=large)
 
 Quality first. Then speed and cost.
 
@@ -399,9 +386,9 @@ How to cut it:
 
 → Attack the biggest buckets first → Tier your models — cheap for easy, expensive for hard → Cache results aggressively (search results, embeddings, summaries) → Constrain outputs ("Return JSON. 5 fields max.") → Batch operations where possible
 
-## 14. Observability: Watching Your Agents at Scale
+## 14\. Observability: Watching Your Agents at Scale
 
-![Image](/assets/source/agents-15.jpg)
+![Image](https://pbs.twimg.com/media/HJD4fbwaUAAAfo6?format=jpg&name=large)
 
 Traditional software: trace the execution path. A calls B. B calls DB. Returns result.
 
@@ -423,9 +410,9 @@ Use quality sampling — evaluate a percentage of all runs. Build a trend line.
 
 This is how you catch regressions before users do.
 
-## 15. Security: The Part Nobody Talks About (But Should)
+## 15\. Security: The Part Nobody Talks About (But Should)
 
-![Image](/assets/source/agents-16.jpg)
+![Image](https://pbs.twimg.com/media/HJD4kuuawAA-JFX?format=jpg&name=large)
 
 Security for AI agents is not like traditional app security.
 

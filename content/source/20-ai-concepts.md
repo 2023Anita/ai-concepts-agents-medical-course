@@ -1,24 +1,11 @@
 ---
-title: "2026 年你必须理解的 20 个 AI 概念 原文全文"
-description: "完整保留原始资料内容与图片"
----
-
-# 2026 年你必须理解的 20 个 AI 概念 原文全文
-
-> 来源文件：`/Users/anita/Documents/ai-concepts-agents-medical-course/content/source/20-ai-concepts.md`  
-> 本页保留原文结构、段落与全部图片，并将外链图片本地化到 `docs/public/assets/source/`。
-
-```yaml
 source_url: "https://x.com/sairahul1/status/2057740928908161461"
 author:
   - "@sairahul1"
 published: 2026-05-22
 tags:
-```
-
-
-
-![Image](/assets/source/concepts-01.jpg)
+---
+![Image](https://pbs.twimg.com/media/HI5-xP8aIAAL0YM?format=jpg&name=large)
 
 大家都在用 AI。
 
@@ -44,9 +31,9 @@ ChatGPT、Claude、Midjourney、Cursor、编程智能体。
 
 ## 第一部分：人工智能的实际运作原理（一切构建的基础）
 
-**1. 神经网络**
+**1\. 神经网络**
 
-![Image](/assets/source/concepts-02.jpg)
+![Image](https://pbs.twimg.com/media/HI58qtEbUAAyrSy?format=jpg&name=large)
 
 每个 AI 模型的大脑。
 
@@ -64,9 +51,9 @@ GPT-4 拥有约 1.8 万亿个参数。Claude 3 Opus 拥有数千亿个参数。
 
 都源于同一个基本概念：具有可调连接的分层神经元。
 
-## 2. 分词
+## 2\. 分词
 
-![Image](/assets/source/concepts-03.jpg)
+![Image](https://pbs.twimg.com/media/HI59HOVbkAA2OOE?format=jpg&name=large)
 
 在 AI 读取你的文本之前，它会将其拆解成称为“词元”的小片段。
 
@@ -86,9 +73,9 @@ Token 是可重复使用的基本构建块。
 
 1000 个 token ≈ 750 个单词。
 
-## 3. 嵌入（Embeddings）
+## 3\. 嵌入（Embeddings）
 
-![Image](/assets/source/concepts-04.jpg)
+![Image](https://pbs.twimg.com/media/HI59_uXa0AAxbxR?format=jpg&name=large)
 
 文本被分词后，每个词元都会变成一个数字。
 
@@ -106,9 +93,9 @@ Token 是可重复使用的基本构建块。
 
 所有“理解意图”的技术，底层都使用了嵌入。
 
-## 4. 注意力机制
+## 4\. 注意力机制
 
-![Image](/assets/source/concepts-05.jpg)
+![Image](https://pbs.twimg.com/media/HI5-MFQaIAAhdVj?format=jpg&name=large)
 
 “苹果”这个词在不同语境下含义不同：
 
@@ -128,9 +115,9 @@ After attention, models see the whole sentence at once.
 
 This single idea unlocked modern AI.
 
-## 5. Transformers
+## 5\. Transformers
 
-![Image](/assets/source/concepts-06.jpg)
+![Image](https://pbs.twimg.com/media/HI5-gFjbIAA8m31?format=jpg&name=large)
 
 The architecture powering almost every AI model today.
 
@@ -150,11 +137,11 @@ All transformers.
 
 If you understand this one architecture, you understand modern AI.
 
-## Part 2: HOW LLMs WORK (What's actually happening when you chat with AI)
+## PART 2: HOW LLMs WORK (What's actually happening when you chat with AI)
 
-## 6. LLMs (Large Language Models)
+## 6\. LLMs (Large Language Models)
 
-![Image](/assets/source/concepts-07.jpg)
+![Image](https://pbs.twimg.com/media/HI5_RfabEAAk_-s?format=jpg&name=large)
 
 An LLM is a transformer trained on a massive amount of text.
 
@@ -180,9 +167,9 @@ It emerged from next-token prediction at scale.
 
 ChatGPT, Claude, Gemini → all LLMs.
 
-## 7. Context Window
+## 7\. Context Window
 
-![Image](/assets/source/concepts-08.jpg)
+![Image](https://pbs.twimg.com/media/HI5_WSCbgAAkyZK?format=jpg&name=large)
 
 Every AI model has a memory limit.
 
@@ -208,9 +195,9 @@ Big context window ≠ perfect memory.
 
 Understanding this explains why AI sometimes "forgets" something you clearly mentioned.
 
-## 8. Temperature
+## 8\. Temperature
 
-![Image](/assets/source/concepts-09.jpg)
+![Image](https://pbs.twimg.com/media/HI5__bjbEAAiFI4?format=jpg&name=large)
 
 When AI generates text, it doesn't just pick the most likely next word every time.
 
@@ -224,9 +211,9 @@ Most tools set this for you automatically.
 
 But understanding it explains why sometimes AI seems "boring" and sometimes it surprises you.
 
-## 9. Hallucination
+## 9\. Hallucination
 
-![Image](/assets/source/concepts-10.jpg)
+![Image](https://pbs.twimg.com/media/HI6ADWQaIAAw9Lq?format=jpg&name=large)
 
 AI lies with confidence.
 
@@ -250,9 +237,9 @@ The fix: never trust AI output on facts without verifying.
 
 Use RAG (concept 16) to ground it in real data.
 
-## 10. Prompt Engineering
+## 10\. Prompt Engineering
 
-![Image](/assets/source/concepts-11.jpg)
+![Image](https://pbs.twimg.com/media/HI6Ao2basAAz7NR?format=jpg&name=large)
 
 The way you ask changes everything.
 
@@ -270,11 +257,11 @@ Prompt engineering isn't a hack.
 
 It's the main way you communicate with the model.
 
-## Part 3: HOW AI MODELS IMPROVE (How raw models become useful products)
+## PART 3: HOW AI MODELS IMPROVE (How raw models become useful products)
 
-## 11. Transfer Learning
+## 11\. Transfer Learning
 
-![Image](/assets/source/concepts-12.jpg)
+![Image](https://pbs.twimg.com/media/HI6AsOtbUAADs6f?format=jpg&name=large)
 
 Training from scratch is expensive.
 
@@ -296,9 +283,9 @@ This is how almost all AI products work today:
 
 No company trains from scratch anymore.
 
-## 12. Fine-Tuning
+## 12\. Fine-Tuning
 
-![Image](/assets/source/concepts-13.jpg)
+![Image](https://pbs.twimg.com/media/HI6BN8BasAAKI92?format=jpg&name=large)
 
 Transfer learning tells you the concept.
 
@@ -320,9 +307,9 @@ That requires serious compute — multiple GPUs, serious infrastructure.
 
 (This is why LoRA, the next concept, matters so much.)
 
-## 13. RLHF (Reinforcement Learning from Human Feedback)
+## 13\. RLHF (Reinforcement Learning from Human Feedback)
 
-![Image](/assets/source/concepts-14.jpg)
+![Image](https://pbs.twimg.com/media/HI6BRuabsAAoRPd?format=jpg&name=large)
 
 Fine-tuning makes models specialized.
 
@@ -344,9 +331,9 @@ This is why ChatGPT and Claude feel like assistants — not random text generato
 
 Without RLHF, they'd still be impressive. But far less useful, less trustworthy, and much harder to control.
 
-## 14. LoRA (Low-Rank Adaptation)
+## 14\. LoRA (Low-Rank Adaptation)
 
-![Image](/assets/source/concepts-15.jpg)
+![Image](https://pbs.twimg.com/media/HI6ByXNagAIyuhC?format=jpg&name=large)
 
 Fine-tuning is powerful but expensive.
 
@@ -370,9 +357,9 @@ LoRA is why open-source AI exploded.
 
 Suddenly anyone could fine-tune powerful models on a laptop.
 
-## 15. Quantization
+## 15\. Quantization
 
-![Image](/assets/source/concepts-16.jpg)
+![Image](https://pbs.twimg.com/media/HI6B1rebkAEEKST?format=jpg&name=large)
 
 Models are getting huge.
 
@@ -394,11 +381,11 @@ Without quantization, large models would stay locked in data centers.
 
 With quantization, they run on your machine.
 
-## Part 4: HOW REAL AI SYSTEMS ARE BUILT (What's behind the products you actually use)
+## PART 4: HOW REAL AI SYSTEMS ARE BUILT (What's behind the products you actually use)
 
-## 16. RAG (Retrieval-Augmented Generation)
+## 16\. RAG (Retrieval-Augmented Generation)
 
-![Image](/assets/source/concepts-17.jpg)
+![Image](https://pbs.twimg.com/media/HI6CZ48awAA-XOY?format=jpg&name=large)
 
 LLMs hallucinate because they answer from memory.
 
@@ -421,9 +408,9 @@ Every serious AI product uses RAG.
 
 Customer support bots. Legal tools. Medical assistants. Internal knowledge bases.
 
-## 17. Vector Databases
+## 17\. Vector Databases
 
-![Image](/assets/source/concepts-18.jpg)
+![Image](https://pbs.twimg.com/media/HI6CiY6b0AA4V5Q?format=jpg&name=large)
 
 RAG needs to find the right documents fast.
 
@@ -447,9 +434,9 @@ Tools: Pinecone, Qdrant, Weaviate, pgvector
 
 Vector databases are what makes AI systems "understand" — not just match strings.
 
-## 18. AI Agents
+## 18\. AI Agents
 
-![Image](/assets/source/concepts-19.jpg)
+![Image](https://pbs.twimg.com/media/HI6D0wRasAA2LCc?format=jpg&name=large)
 
 An LLM responds to messages.
 
@@ -471,9 +458,9 @@ What tools can agents use? → Web search → Code execution → File system →
 
 Agents are what turn AI from a chatbot into a coworker.
 
-## 19. Chain of Thought (CoT)
+## 19\. Chain of Thought (CoT)
 
-![Image](/assets/source/concepts-20.jpg)
+![Image](https://pbs.twimg.com/media/HI6DwTbaYAAToyy?format=jpg&name=large)
 
 Sometimes AI gets the wrong answer not because it's stupid.
 
@@ -497,9 +484,9 @@ The insight: give the model room to think, not just react.
 
 This is why prompts like "think step by step" or "reason through this carefully" actually work.
 
-## 20. Diffusion Models
+## 20\. Diffusion Models
 
-![Image](/assets/source/concepts-21.jpg)
+![Image](https://pbs.twimg.com/media/HI6D5wDa8AAgUoW?format=jpg&name=large)
 
 Everything so far has been about text.
 

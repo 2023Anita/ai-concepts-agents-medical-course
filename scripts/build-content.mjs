@@ -9,8 +9,8 @@ const sourceDir = path.join(docs, "public", "assets", "source");
 const illustrationDir = path.join(docs, "public", "assets", "illustrations");
 
 const sources = {
-  concepts: "/Users/anita/obsidian2026/raw/articles/2026 年你必须理解的 20 个 AI 概念.md",
-  agents: "/Users/anita/obsidian2026/raw/articles/AI 智能体：完整课程.md"
+  concepts: path.join(root, "content", "source", "20-ai-concepts.md"),
+  agents: path.join(root, "content", "source", "ai-agents-course.md")
 };
 
 const conceptGroups = [
